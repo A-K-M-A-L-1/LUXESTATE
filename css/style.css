@@ -356,12 +356,10 @@ body {
 }
 
 .services img {
-
-    width: auto;
+    width: 350px;
     height: 350px;
     margin-bottom: 12px;
-    
-
+    border-radius: 175px;
 }
 
 .para {
