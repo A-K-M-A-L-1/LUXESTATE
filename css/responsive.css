@@ -1,0 +1,155 @@
+@media only screen and (max-width: 430px) and (min-width: 320px) {
+
+
+
+
+    .main {
+
+        margin-bottom: -395px;
+
+    }
+
+
+    #nav {
+
+
+        display: none;
+
+    }
+
+
+    .left-sec h1 {
+        font-size: 2em;
+        padding: 35px 49px;
+        color: white;
+    }
+
+    #logo img {
+        width: 50px;
+    }
+
+    .bar {
+
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: 85%;
+
+    }
+
+
+    #nav-list {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 121px;
+        gap: 74px;
+
+    }
+
+
+
+
+
+    #nav-list li a {
+
+        color: white;
+
+    }
+
+
+    #right-nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 102px;
+        margin: auto;
+
+    }
+
+    #right-nav li a {
+        font-weight: 600;
+
+    }
+
+    .cross {
+        display: block;
+        position: absolute;
+        top: 18px;
+        left: 85%;
+        cursor: pointer;
+        padding: 10px;
+        overflow: auto;
+
+    }
+
+
+
+    .left-sec form {
+        display: none;
+    }
+
+    .right-sec {
+        visibility: hidden;
+    }
+
+
+    .strong {
+
+        margin-top: 45px;
+    }
+
+
+
+
+
+    .services img {
+        width: 358px;
+        height: 358px;
+        margin-bottom: 12px;
+        border-radius: 179px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 834px) and (min-width: 768px) {
+
+
+    #nav {
+      
+        justify-content: right;
+       
+    }
+
+
+
+    #nav-list li a {
+        padding: 6px 5px;
+        font-size: 10px;
+    }
+
+    .left-sec form label {
+        
+       display: none;
+    }
+
+    .right-sec button {
+        
+        font-size: initial;
+        
+        margin: 0px 0px 136px 56px;
+    }
+
+
+    .right-sec {
+        border-radius: 0px;
+        margin: 0px;
+    }
+
+}

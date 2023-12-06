@@ -1,0 +1,410 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    /* overflow-y: hidden; */
+
+
+}
+
+body {
+
+    overflow-x: hidden;
+}
+
+/* Utility Classes */
+.uni-margin {
+    margin: 0% 5%;
+}
+
+
+
+
+
+
+.scrolled {
+
+    background: linear-gradient(45deg, black, transparent);
+    /* Change this to the desired color */
+    transition: background 0.3s ease;
+    /* Add a smooth transition effect */
+    box-shadow: 0px -16px 12px 32px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+/* Nav-bar */
+
+#nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5% 5%;
+    position: fixed;
+    gap: 110px;
+    width: 90vw;
+    row-gap: 0px;
+
+}
+
+/* Logo */
+
+#logo {
+
+    cursor: pointer;
+
+}
+
+#logo img {
+    width: 100%;
+
+
+}
+
+
+#nav-list {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 121px;
+    gap: 15px;
+
+}
+
+#nav-list li {
+
+
+    list-style-type: none;
+
+}
+
+#nav-list li a {
+
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+#nav-list li a:hover {
+
+    background-color: RGBA(255, 204, 1, 1);
+    color: black;
+    border-radius: 17px;
+
+}
+
+
+/* right nav */
+
+
+#right-nav {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#right-nav ul li {
+
+    list-style-type: none;
+}
+
+#right-nav ul li a {
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+
+}
+
+#right-nav ul li a:hover {
+
+    background-color: RGBA(255, 204, 1, 1);
+    color: black;
+    border-radius: 17px;
+}
+
+/* right-nav-button */
+
+.btn-primary {
+    padding: 10px 11px;
+    background-color: RGBA(255, 204, 1, 1);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.btn-primary:hover {
+    background-color: RGBA(255, 204, 1, 0.9);
+    color: black;
+}
+
+
+.bar {
+
+
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    cursor: pointer;
+
+}
+
+.bar>div {
+
+    background-color: black;
+    height: 4px;
+    width: 29px;
+    margin: 4px;
+
+}
+
+.cross {
+    display: none;
+    position: absolute;
+    top: 200%;
+    right: 3%;
+    cursor: pointer;
+    padding: 18px;
+
+}
+
+.crossx {
+    background-color: black;
+    width: 35px;
+    height: 3px;
+    margin: -2px;
+}
+
+.x1 {
+    transform: rotate(129deg);
+}
+
+.x2 {
+    transform: rotate(50deg);
+}
+
+
+/*                          Section-First                             */
+
+
+/* Section-First-Main */
+
+.main {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/appartment.jpg);
+    justify-content: space-between;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 96vh;
+    margin-bottom: 36px;
+    overflow: auto;
+
+}
+
+
+.left-sec {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.left-sec h1 {
+
+    font-size: 3em;
+    padding: 5px 63px;
+
+}
+
+
+.left-sec form input {
+    padding: 12px 174px 12px 12px;
+    border: transparent;
+    background: linear-gradient(45deg, black, transparent);
+    z-index: 1;
+    font-size: medium;
+    color: white;
+}
+
+.left-sec form input:focus {
+
+    outline: none;
+
+}
+
+.left-sec form label {
+
+    position: absolute;
+    left: 31vw;
+    top: 65.9vh;
+    z-index: 2;
+    color: white;
+    background: linear-gradient(-125deg, black, transparent);
+    padding: 12px 12px;
+    cursor: pointer;
+}
+
+
+.right-sec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+
+}
+
+
+.right-sec button {
+    background: linear-gradient(337deg, yellow, transparent);
+    padding: 15px 80px;
+    font-size: small;
+    font-weight: 900;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+
+
+.strong {
+
+    text-align: center;
+    background: linear-gradient(179deg, grey, transparent 100px);
+    padding: 26px 0px;
+    margin-bottom: 35px;
+}
+
+.strong strong {
+
+    color: inherit;
+    font-size: xx-large;
+
+
+}
+
+
+
+/*                          GALLERY                             */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.room {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.room img {
+
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+
+}
+
+.room a button {
+    cursor: pointer;
+    background: linear-gradient(514deg, darkblue, transparent);
+    padding: 10px 93px;
+    border-radius: 6px;
+}
+
+/*                              Our Services                             */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 157px 0px;
+    
+}
+
+.services img {
+
+    width: auto;
+    height: 350px;
+    margin-bottom: 12px;
+    
+
+}
+
+.para {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 400px;
+
+}
+
+.para strong {
+
+    color: inherit;
+    font-size: xx-large;
+
+}
+
+.para p {
+    text-align: center;
+}
+
+/*                          Footer                             */
+
+
+.footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 23px 0px;
+    background: linear-gradient(360deg, black, transparent 184px);
+    color: white;
+    width: 100vw;
+
+}
+
+
+
+.footer strong {
+
+    font-size: large;
+
+}
